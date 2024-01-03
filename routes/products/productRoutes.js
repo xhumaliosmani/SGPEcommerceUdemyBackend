@@ -14,7 +14,7 @@ const {
   deleteProductSingle,
   deleteAllProducts,
 } = require("../../controllers/Products/productsController.js");
-const upload = require("../../middleware/Multer/Multer.js");
+const upload = require("../../middleware/multer/multer.js");
 const uploadMultipleCloudinary = require("../../middleware/upload/uploadMultiple.js");
 
 const route = express.Router();
