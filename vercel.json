@@ -12,5 +12,10 @@
         "dest": "app.js",
         "methods": ["GET", "POST", "PUT", "PATCH", "DELETE",  "OPTIONS"]
       }
-    ]
+    ], 
+    "git": {
+    "deploymentEnabled": {
+      "main": false
+    }
+  }
   }
